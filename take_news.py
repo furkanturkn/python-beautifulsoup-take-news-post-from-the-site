@@ -18,7 +18,7 @@ for yazisayi in range(60): # limit the number of posts to pull. default: 60
         r_world = requests.get(BBC_world_URL) #Url çek
         soup = BeautifulSoup(r_world.content,"xml") #Urlnin içeriğini al
 
-        items = soup.findAll('item') #İçerikte tüm "item" id olanlari bul
+        items = soup.findAll('item') #Find all "item" id in content
         ################
 
         BBC_tech_URL = "http://feeds.bbci.co.uk/news/technology/rss.xml" #BBC technology category RSS url given
