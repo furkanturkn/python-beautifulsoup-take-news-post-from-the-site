@@ -7,7 +7,7 @@ import errno
 import datetime
 from unidecode import unidecode
 
-
+# created by genjitsuCode FURKANTURKAN
 
 print("BBC News"+"\n")
 for yazisayi in range(60): # limit the number of posts to pull. default: 60
